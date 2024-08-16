@@ -1,0 +1,261 @@
+0 verbose cli D:\DataFromApps\Nodejs\node.exe D:\DataFromApps\Nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@9.5.1
+2 info using node@v18.16.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:D:\DataFromApps\Nodejs\node_modules\npm\npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:C:\Users\zxc\AppData\Local\Microsoft\TypeScript\5.3\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:C:\Users\zxc\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:D:\test_js_code\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 6ms
+17 timing npm:load:configload Completed in 6ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install @types/core-js@ts5.3 @types/js-cookie@ts5.3 @types/nprogress@ts5.3 @types/connect@ts5.3 @types/eslint@ts5.3 @types/html-webpack-plugin@ts5.3 @types/mockjs@ts5.3 @types/sass-loader@ts5.3 @types/script-ext-html-webpack-plugin@ts5.3 @types/serve-static@ts5.3 @types/svg-sprite-loader@ts5.3 @types/request@ts5.3
+21 verbose argv "install" "--ignore-scripts" "@types/core-js@ts5.3" "@types/js-cookie@ts5.3" "@types/nprogress@ts5.3" "@types/connect@ts5.3" "@types/eslint@ts5.3" "@types/html-webpack-plugin@ts5.3" "@types/mockjs@ts5.3" "@types/sass-loader@ts5.3" "@types/script-ext-html-webpack-plugin@ts5.3" "@types/serve-static@ts5.3" "@types/svg-sprite-loader@ts5.3" "@types/request@ts5.3" "--save-dev" "--user-agent" "typesInstaller/5.3.2"
+22 timing npm:load:setTitle Completed in 2ms
+23 timing config:load:flatten Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:D:\UI\vue-admin-template\_logs\2024-01-04T12_19_43_296Z-
+26 verbose logfile D:\UI\vue-admin-template\_logs\2024-01-04T12_19_43_296Z-debug-0.log
+27 timing npm:load:logFile Completed in 13ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 23ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile start cleaning logs, removing 4 files
+33 timing idealTree:init Completed in 30ms
+34 silly logfile done cleaning log files
+35 timing arborist:ctor Completed in 1ms
+36 http fetch GET 200 https://mirrors.huaweicloud.com/repository/npm/@types%2fscript-ext-html-webpack-plugin 191ms (cache miss)
+37 http fetch GET 200 https://mirrors.huaweicloud.com/repository/npm/@types%2fsass-loader 193ms (cache miss)
+38 http fetch GET 200 https://mirrors.huaweicloud.com/repository/npm/@types%2fnprogress 195ms (cache miss)
+39 http fetch GET 200 https://mirrors.huaweicloud.com/repository/npm/@types%2fsvg-sprite-loader 195ms (cache miss)
+40 http fetch GET 200 https://mirrors.huaweicloud.com/repository/npm/@types%2fmockjs 201ms (cache miss)
+41 http fetch GET 200 https://mirrors.huaweicloud.com/repository/npm/@types%2fhtml-webpack-plugin 206ms (cache miss)
+42 http fetch GET 200 https://mirrors.huaweicloud.com/repository/npm/@types%2fserve-static 210ms (cache miss)
+43 http fetch GET 200 https://mirrors.huaweicloud.com/repository/npm/@types%2fcore-js 218ms (cache miss)
+44 http fetch GET 200 https://mirrors.huaweicloud.com/repository/npm/@types%2fjs-cookie 219ms (cache miss)
+45 http fetch GET 200 https://mirrors.huaweicloud.com/repository/npm/@types%2fconnect 431ms (cache miss)
+46 http fetch GET 200 https://mirrors.huaweicloud.com/repository/npm/@types%2frequest 1060ms (cache miss)
+47 http fetch GET 200 https://mirrors.huaweicloud.com/repository/npm/@types%2feslint 1437ms (cache miss)
+48 timing idealTree:userRequests Completed in 1442ms
+49 silly idealTree buildDeps
+50 silly fetch manifest @types/connect@3.4.38
+51 silly fetch manifest @types/core-js@2.5.8
+52 silly fetch manifest @types/eslint@8.56.1
+53 silly fetch manifest @types/html-webpack-plugin@3.2.9
+54 silly fetch manifest @types/js-cookie@3.0.6
+55 silly fetch manifest @types/mockjs@1.0.10
+56 silly fetch manifest @types/nprogress@0.2.3
+57 silly fetch manifest @types/request@2.48.12
+58 silly fetch manifest @types/sass-loader@8.0.8
+59 silly fetch manifest @types/script-ext-html-webpack-plugin@2.1.6
+60 silly fetch manifest @types/serve-static@1.15.5
+61 silly fetch manifest @types/svg-sprite-loader@3.9.9
+62 silly placeDep ROOT @types/connect@3.4.38 REPLACE for:  want: 3.4.38
+63 silly placeDep ROOT @types/core-js@2.5.8 REPLACE for:  want: 2.5.8
+64 silly placeDep ROOT @types/eslint@8.56.1 REPLACE for:  want: 8.56.1
+65 silly placeDep ROOT @types/html-webpack-plugin@3.2.9 REPLACE for:  want: 3.2.9
+66 silly placeDep ROOT @types/js-cookie@3.0.6 REPLACE for:  want: 3.0.6
+67 silly placeDep ROOT @types/mockjs@1.0.10 REPLACE for:  want: 1.0.10
+68 silly placeDep ROOT @types/nprogress@0.2.3 REPLACE for:  want: 0.2.3
+69 silly placeDep ROOT @types/request@2.48.12 REPLACE for:  want: 2.48.12
+70 silly placeDep ROOT @types/sass-loader@8.0.8 REPLACE for:  want: 8.0.8
+71 silly placeDep ROOT @types/script-ext-html-webpack-plugin@2.1.6 REPLACE for:  want: 2.1.6
+72 silly placeDep ROOT @types/serve-static@1.15.5 REPLACE for:  want: 1.15.5
+73 silly placeDep ROOT @types/svg-sprite-loader@3.9.9 REPLACE for:  want: 3.9.9
+74 timing idealTree:#root Completed in 12ms
+75 timing idealTree:node_modules/@types/connect Completed in 0ms
+76 timing idealTree:node_modules/@types/core-js Completed in 0ms
+77 timing idealTree:node_modules/@types/eslint Completed in 0ms
+78 timing idealTree:node_modules/@types/html-webpack-plugin Completed in 0ms
+79 timing idealTree:node_modules/@types/js-cookie Completed in 0ms
+80 timing idealTree:node_modules/@types/mockjs Completed in 0ms
+81 timing idealTree:node_modules/@types/nprogress Completed in 0ms
+82 timing idealTree:node_modules/@types/request Completed in 0ms
+83 timing idealTree:node_modules/@types/sass-loader Completed in 0ms
+84 timing idealTree:node_modules/@types/script-ext-html-webpack-plugin Completed in 0ms
+85 timing idealTree:node_modules/@types/serve-static Completed in 0ms
+86 timing idealTree:node_modules/@types/svg-sprite-loader Completed in 0ms
+87 timing idealTree:buildDeps Completed in 12ms
+88 timing idealTree:fixDepFlags Completed in 0ms
+89 timing idealTree Completed in 1487ms
+90 timing reify:loadTrees Completed in 1487ms
+91 timing reify:diffTrees Completed in 1ms
+92 silly reify mark retired [
+92 silly reify   'C:\\Users\\zxc\\AppData\\Local\\Microsoft\\TypeScript\\5.3\\node_modules\\@types\\eslint'
+92 silly reify ]
+93 silly reify moves {
+93 silly reify   'C:\\Users\\zxc\\AppData\\Local\\Microsoft\\TypeScript\\5.3\\node_modules\\@types\\eslint': 'C:\\Users\\zxc\\AppData\\Local\\Microsoft\\TypeScript\\5.3\\node_modules\\@types\\.eslint-bJ2upoKn'
+93 silly reify }
+94 timing reify:retireShallow Completed in 3ms
+95 timing reify:createSparse Completed in 0ms
+96 timing reify:loadBundles Completed in 0ms
+97 silly audit bulk request {
+97 silly audit   '@types/body-parser': [ '1.19.5' ],
+97 silly audit   '@types/bytes': [ '3.1.4' ],
+97 silly audit   '@types/caseless': [ '0.12.5' ],
+97 silly audit   '@types/clean-css': [ '4.2.11' ],
+97 silly audit   '@types/content-type': [ '1.1.8' ],
+97 silly audit   '@types/debug': [ '4.1.12' ],
+97 silly audit   '@types/depd': [ '1.1.36' ],
+97 silly audit   '@types/destroy': [ '1.0.3' ],
+97 silly audit   '@types/encodeurl': [ '1.0.2' ],
+97 silly audit   '@types/escape-html': [ '1.0.4' ],
+97 silly audit   '@types/estree': [ '1.0.5' ],
+97 silly audit   '@types/etag': [ '1.8.3' ],
+97 silly audit   '@types/finalhandler': [ '1.2.3' ],
+97 silly audit   '@types/fresh': [ '0.5.2' ],
+97 silly audit   '@types/html-minifier': [ '4.0.5' ],
+97 silly audit   '@types/http-errors': [ '2.0.4' ],
+97 silly audit   '@types/json-schema': [ '7.0.15' ],
+97 silly audit   '@types/mime': [ '3.0.4', '1.3.5' ],
+97 silly audit   '@types/ms': [ '0.7.34' ],
+97 silly audit   '@types/node': [ '20.10.4' ],
+97 silly audit   '@types/node-sass': [ '4.11.7' ],
+97 silly audit   '@types/on-finished': [ '2.3.4' ],
+97 silly audit   '@types/parseurl': [ '1.3.3' ],
+97 silly audit   '@types/qs': [ '6.9.10' ],
+97 silly audit   '@types/range-parser': [ '1.2.7' ],
+97 silly audit   '@types/relateurl': [ '0.2.33' ],
+97 silly audit   '@types/send': [ '0.17.4' ],
+97 silly audit   '@types/source-list-map': [ '0.1.6' ],
+97 silly audit   '@types/statuses': [ '2.0.4' ],
+97 silly audit   '@types/tapable': [ '1.0.12' ],
+97 silly audit   '@types/tough-cookie': [ '4.0.5' ],
+97 silly audit   '@types/type-is': [ '1.6.6' ],
+97 silly audit   '@types/uglify-js': [ '3.17.4' ],
+97 silly audit   '@types/utils-merge': [ '0.0.31' ],
+97 silly audit   '@types/webpack': [ '4.41.38' ],
+97 silly audit   '@types/webpack-sources': [ '3.2.3' ],
+97 silly audit   'source-map': [ '0.7.4', '0.6.1' ],
+97 silly audit   anymatch: [ '3.1.3' ],
+97 silly audit   asynckit: [ '0.4.0' ],
+97 silly audit   'binary-extensions': [ '2.2.0' ],
+97 silly audit   braces: [ '3.0.2' ],
+97 silly audit   chokidar: [ '3.5.3' ],
+97 silly audit   'combined-stream': [ '1.0.8' ],
+97 silly audit   'delayed-stream': [ '1.0.0' ],
+97 silly audit   'fill-range': [ '7.0.1' ],
+97 silly audit   'form-data': [ '2.5.1' ],
+97 silly audit   fsevents: [ '2.3.3' ],
+97 silly audit   'glob-parent': [ '5.1.2' ],
+97 silly audit   immutable: [ '4.3.4' ],
+97 silly audit   'is-binary-path': [ '2.1.0' ],
+97 silly audit   'is-extglob': [ '2.1.1' ],
+97 silly audit   'is-glob': [ '4.0.3' ],
+97 silly audit   'is-number': [ '7.0.0' ],
+97 silly audit   'mime-db': [ '1.52.0' ],
+97 silly audit   'mime-types': [ '2.1.35' ],
+97 silly audit   'normalize-path': [ '3.0.0' ],
+97 silly audit   picomatch: [ '2.3.1' ],
+97 silly audit   readdirp: [ '3.6.0' ],
+97 silly audit   sass: [ '1.69.5' ],
+97 silly audit   'source-map-js': [ '1.0.2' ],
+97 silly audit   'to-regex-range': [ '5.0.1' ],
+97 silly audit   'types-registry': [ '0.1.677' ],
+97 silly audit   'undici-types': [ '5.26.5' ],
+97 silly audit   '@types/connect': [ '3.4.38' ],
+97 silly audit   '@types/core-js': [ '2.5.8' ],
+97 silly audit   '@types/eslint': [ '8.56.1' ],
+97 silly audit   '@types/html-webpack-plugin': [ '3.2.9' ],
+97 silly audit   '@types/js-cookie': [ '3.0.6' ],
+97 silly audit   '@types/mockjs': [ '1.0.10' ],
+97 silly audit   '@types/nprogress': [ '0.2.3' ],
+97 silly audit   '@types/request': [ '2.48.12' ],
+97 silly audit   '@types/sass-loader': [ '8.0.8' ],
+97 silly audit   '@types/script-ext-html-webpack-plugin': [ '2.1.6' ],
+97 silly audit   '@types/serve-static': [ '1.15.5' ],
+97 silly audit   '@types/svg-sprite-loader': [ '3.9.9' ]
+97 silly audit }
+98 verbose reify failed optional dependency C:\Users\zxc\AppData\Local\Microsoft\TypeScript\5.3\node_modules\fsevents
+99 silly reify mark deleted [
+99 silly reify   'C:\\Users\\zxc\\AppData\\Local\\Microsoft\\TypeScript\\5.3\\node_modules\\fsevents'
+99 silly reify ]
+100 timing reifyNode:node_modules/fsevents Completed in 1ms
+101 silly tarball no local data for @types/eslint@https://mirrors.huaweicloud.com/repository/npm/@types/eslint/-/eslint-8.56.1.tgz. Extracting by manifest.
+102 http fetch POST 404 https://mirrors.huaweicloud.com/repository/npm/-/npm/v1/security/advisories/bulk 49ms
+103 silly audit bulk request failed <html>
+103 silly audit
+103 silly audit <head>
+103 silly audit         <meta http-equiv="content-type" content="text/html;charset=utf-8">
+103 silly audit         <title>404</title>
+103 silly audit </head>
+103 silly audit
+103 silly audit <body>
+103 silly audit         <center>
+103 silly audit                 <h1>404 Not Found</h1>
+103 silly audit         </center>
+103 silly audit         <hr>
+103 silly audit         <center>访问华为云开源镜像站，获取更多信息：<a href='https://mirrors.huaweicloud.com/'>https://mirrors.huaweicloud.com/</a></center>
+103 silly audit </body>
+103 silly audit </html>
+104 http fetch POST 404 https://mirrors.huaweicloud.com/repository/npm/-/npm/v1/security/audits/quick 46ms
+105 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://mirrors.huaweicloud.com/repository/npm/-/npm/v1/security/audits/quick
+105 verbose audit error     at D:\DataFromApps\Nodejs\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:95:15
+105 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+105 verbose audit error     at async [getReport] (D:\DataFromApps\Nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:335:21)
+105 verbose audit error     at async AuditReport.run (D:\DataFromApps\Nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19) {
+105 verbose audit error   headers: [Object: null prototype] {
+105 verbose audit error     server: [ 'CloudWAF' ],
+105 verbose audit error     date: [ 'Thu, 04 Jan 2024 12:19:45 GMT' ],
+105 verbose audit error     'content-type': [ 'text/html' ],
+105 verbose audit error     'content-length': [ '394' ],
+105 verbose audit error     connection: [ 'keep-alive' ],
+105 verbose audit error     'set-cookie': [
+105 verbose audit error       'HWWAFSESID=a72953487b256b8fed8a; path=/',
+105 verbose audit error       'HWWAFSESTIME=1704370781497; path=/'
+105 verbose audit error     ],
+105 verbose audit error     etag: [ '"65839b1b-18a"' ],
+105 verbose audit error     'x-fetch-attempts': [ '1' ]
+105 verbose audit error   },
+105 verbose audit error   statusCode: 404,
+105 verbose audit error   code: 'E404',
+105 verbose audit error   method: 'POST',
+105 verbose audit error   uri: 'https://mirrors.huaweicloud.com/repository/npm/-/npm/v1/security/audits/quick',
+105 verbose audit error   body: <Buffer 3c 68 74 6d 6c 3e 0a 0a 3c 68 65 61 64 3e 0a 20 20 20 20 20 20 20 20 3c 6d 65 74 61 20 68 74 74 70 2d 65 71 75 69 76 3d 22 63 6f 6e 74 65 6e 74 2d 74 ... 344 more bytes>,
+105 verbose audit error   pkgid: 'quick'
+105 verbose audit error }
+106 silly audit error <html>
+106 silly audit error
+106 silly audit error <head>
+106 silly audit error         <meta http-equiv="content-type" content="text/html;charset=utf-8">
+106 silly audit error         <title>404</title>
+106 silly audit error </head>
+106 silly audit error
+106 silly audit error <body>
+106 silly audit error         <center>
+106 silly audit error                 <h1>404 Not Found</h1>
+106 silly audit error         </center>
+106 silly audit error         <hr>
+106 silly audit error         <center>访问华为云开源镜像站，获取更多信息：<a href='https://mirrors.huaweicloud.com/'>https://mirrors.huaweicloud.com/</a></center>
+106 silly audit error </body>
+106 silly audit error </html>
+107 timing auditReport:getReport Completed in 102ms
+108 silly audit report null
+109 timing reify:audit Completed in 102ms
+110 http fetch GET 200 https://mirrors.huaweicloud.com/repository/npm/@types/eslint/-/eslint-8.56.1.tgz 362ms (cache miss)
+111 timing reifyNode:node_modules/@types/eslint Completed in 365ms
+112 timing reify:unpack Completed in 365ms
+113 timing reify:unretire Completed in 0ms
+114 timing build:queue Completed in 0ms
+115 timing build:deps Completed in 0ms
+116 timing build Completed in 1ms
+117 timing reify:build Completed in 1ms
+118 timing reify:trash Completed in 4ms
+119 timing reify:save Completed in 9ms
+120 timing reify Completed in 1879ms
+121 silly ADD
+122 silly CHANGE node_modules/@types/eslint
+123 timing command:install Completed in 1881ms
+124 verbose exit 0
+125 timing npm Completed in 1914ms
+126 info ok
