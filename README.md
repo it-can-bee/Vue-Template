@@ -1,5 +1,10 @@
 # vue-admin-template
 
+欢迎交流
+
+我的主页：[博客园](https://www.cnblogs.com/live-passion)
+
+
 English | [简体中文](./README-zh.md)
 
 > A minimal vue admin template with Element UI & axios & iconfont & permission control & lint
